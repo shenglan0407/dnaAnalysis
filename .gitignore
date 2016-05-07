@@ -1,3 +1,4 @@
 notebooks/
 obsolete/
 .ipynb_checkpoints/
+*.pyc
