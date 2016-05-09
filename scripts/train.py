@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import sys
-sys.path.append("/Users/shenglanqiao/Documents/Research/dna_data/src")
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath('__file__')), '../src'))
 
 import utilities
 import dnaAnalysis as da
