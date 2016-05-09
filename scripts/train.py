@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 import sys
+import os
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath('__file__')), '../src'))
 
 import utilities
@@ -8,7 +9,7 @@ import dnaAnalysis as da
 
 import ConfigParser
 import getopt
-import os
+
 import h5py
 
 def usage():
