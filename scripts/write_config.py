@@ -60,5 +60,5 @@ for this_run in runnames:
 with open(os.path.join(fileDir, '../scripts/train_fc_ldna088.sh'),'w') as script:
     for this_run in runnames:
         config_file = '%s.cfg'%this_run.split('.')[0]
-        script.write("./train.py -i fc_ldna088/%s -o fc_ldna088/%s\n"%(config_file,this_run))
+        script.write("Epython train.py -i fc_ldna088/%s -o fc_ldna088/%s\n"%(config_file,this_run))
         
