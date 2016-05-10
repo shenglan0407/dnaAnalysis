@@ -1,40 +1,40 @@
-Epython train.py -i fc_ldna088/run296314_NiUxvV_corr.cfg -o fc_ldna088/run296314_NiUxvV_corr.hdf5
-Epython train.py -i fc_ldna088/run296315_9EKBZP_corr.cfg -o fc_ldna088/run296315_9EKBZP_corr.hdf5
-Epython train.py -i fc_ldna088/run296316_ESFLBI_corr.cfg -o fc_ldna088/run296316_ESFLBI_corr.hdf5
-Epython train.py -i fc_ldna088/run296317_bft9pB_corr.cfg -o fc_ldna088/run296317_bft9pB_corr.hdf5
-Epython train.py -i fc_ldna088/run296318_U0HdUm_corr.cfg -o fc_ldna088/run296318_U0HdUm_corr.hdf5
-Epython train.py -i fc_ldna088/run296319_CryCft_corr.cfg -o fc_ldna088/run296319_CryCft_corr.hdf5
-Epython train.py -i fc_ldna088/run296320_yxMKfc_corr.cfg -o fc_ldna088/run296320_yxMKfc_corr.hdf5
-Epython train.py -i fc_ldna088/run296321_OPEq9Z_corr.cfg -o fc_ldna088/run296321_OPEq9Z_corr.hdf5
-Epython train.py -i fc_ldna088/run296322_Pza_Fc_corr.cfg -o fc_ldna088/run296322_Pza_Fc_corr.hdf5
-Epython train.py -i fc_ldna088/run296323_qKVcyH_corr.cfg -o fc_ldna088/run296323_qKVcyH_corr.hdf5
-Epython train.py -i fc_ldna088/run296324_WQKDUu_corr.cfg -o fc_ldna088/run296324_WQKDUu_corr.hdf5
-Epython train.py -i fc_ldna088/run296325_DAlRWU_corr.cfg -o fc_ldna088/run296325_DAlRWU_corr.hdf5
-Epython train.py -i fc_ldna088/run296326_s80g3G_corr.cfg -o fc_ldna088/run296326_s80g3G_corr.hdf5
-Epython train.py -i fc_ldna088/run296327_hAq3sJ_corr.cfg -o fc_ldna088/run296327_hAq3sJ_corr.hdf5
-Epython train.py -i fc_ldna088/run296328_K_lN4x_corr.cfg -o fc_ldna088/run296328_K_lN4x_corr.hdf5
-Epython train.py -i fc_ldna088/run296329_gen_pO_corr.cfg -o fc_ldna088/run296329_gen_pO_corr.hdf5
-Epython train.py -i fc_ldna088/run296330_hZXeXz_corr.cfg -o fc_ldna088/run296330_hZXeXz_corr.hdf5
-Epython train.py -i fc_ldna088/run296331_3IUEcN_corr.cfg -o fc_ldna088/run296331_3IUEcN_corr.hdf5
-Epython train.py -i fc_ldna088/run296332_5Hlo3u_corr.cfg -o fc_ldna088/run296332_5Hlo3u_corr.hdf5
-Epython train.py -i fc_ldna088/run296333_eBlI3L_corr.cfg -o fc_ldna088/run296333_eBlI3L_corr.hdf5
-Epython train.py -i fc_ldna088/run296334_L6GyQ1_corr.cfg -o fc_ldna088/run296334_L6GyQ1_corr.hdf5
-Epython train.py -i fc_ldna088/run296335_DCL24R_corr.cfg -o fc_ldna088/run296335_DCL24R_corr.hdf5
-Epython train.py -i fc_ldna088/run296336_AHv0WH_corr.cfg -o fc_ldna088/run296336_AHv0WH_corr.hdf5
-Epython train.py -i fc_ldna088/run296337_knl1u6_corr.cfg -o fc_ldna088/run296337_knl1u6_corr.hdf5
-Epython train.py -i fc_ldna088/run296338_VQ5dYS_corr.cfg -o fc_ldna088/run296338_VQ5dYS_corr.hdf5
-Epython train.py -i fc_ldna088/run296339_cZLLwO_corr.cfg -o fc_ldna088/run296339_cZLLwO_corr.hdf5
-Epython train.py -i fc_ldna088/run296340_xli943_corr.cfg -o fc_ldna088/run296340_xli943_corr.hdf5
-Epython train.py -i fc_ldna088/run296341_2t9MZv_corr.cfg -o fc_ldna088/run296341_2t9MZv_corr.hdf5
-Epython train.py -i fc_ldna088/run296342_ij1vhK_corr.cfg -o fc_ldna088/run296342_ij1vhK_corr.hdf5
-Epython train.py -i fc_ldna088/run296343_4IpqnB_corr.cfg -o fc_ldna088/run296343_4IpqnB_corr.hdf5
-Epython train.py -i fc_ldna088/run296344_jCvPEv_corr.cfg -o fc_ldna088/run296344_jCvPEv_corr.hdf5
-Epython train.py -i fc_ldna088/run296345_mH8b6d_corr.cfg -o fc_ldna088/run296345_mH8b6d_corr.hdf5
-Epython train.py -i fc_ldna088/run296346_0qKzYQ_corr.cfg -o fc_ldna088/run296346_0qKzYQ_corr.hdf5
-Epython train.py -i fc_ldna088/run296347_qcymKK_corr.cfg -o fc_ldna088/run296347_qcymKK_corr.hdf5
-Epython train.py -i fc_ldna088/run296348_fIVjxZ_corr.cfg -o fc_ldna088/run296348_fIVjxZ_corr.hdf5
-Epython train.py -i fc_ldna088/run296349_x44KLo_corr.cfg -o fc_ldna088/run296349_x44KLo_corr.hdf5
-Epython train.py -i fc_ldna088/run296350_TBFQ5g_corr.cfg -o fc_ldna088/run296350_TBFQ5g_corr.hdf5
-Epython train.py -i fc_ldna088/run296351_SUOEFT_corr.cfg -o fc_ldna088/run296351_SUOEFT_corr.hdf5
-Epython train.py -i fc_ldna088/run296352_GYNwyy_corr.cfg -o fc_ldna088/run296352_GYNwyy_corr.hdf5
-Epython train.py -i fc_ldna088/run296353_kpKuli_corr.cfg -o fc_ldna088/run296353_kpKuli_corr.hdf5
+Epython train.py -i fc_ldna088/run296314_NiUxvV_corr.cfg -o fc_ldna088/run296314_NiUxvV_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296315_9EKBZP_corr.cfg -o fc_ldna088/run296315_9EKBZP_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296316_ESFLBI_corr.cfg -o fc_ldna088/run296316_ESFLBI_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296317_bft9pB_corr.cfg -o fc_ldna088/run296317_bft9pB_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296318_U0HdUm_corr.cfg -o fc_ldna088/run296318_U0HdUm_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296319_CryCft_corr.cfg -o fc_ldna088/run296319_CryCft_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296320_yxMKfc_corr.cfg -o fc_ldna088/run296320_yxMKfc_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296321_OPEq9Z_corr.cfg -o fc_ldna088/run296321_OPEq9Z_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296322_Pza_Fc_corr.cfg -o fc_ldna088/run296322_Pza_Fc_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296323_qKVcyH_corr.cfg -o fc_ldna088/run296323_qKVcyH_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296324_WQKDUu_corr.cfg -o fc_ldna088/run296324_WQKDUu_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296325_DAlRWU_corr.cfg -o fc_ldna088/run296325_DAlRWU_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296326_s80g3G_corr.cfg -o fc_ldna088/run296326_s80g3G_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296327_hAq3sJ_corr.cfg -o fc_ldna088/run296327_hAq3sJ_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296328_K_lN4x_corr.cfg -o fc_ldna088/run296328_K_lN4x_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296329_gen_pO_corr.cfg -o fc_ldna088/run296329_gen_pO_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296330_hZXeXz_corr.cfg -o fc_ldna088/run296330_hZXeXz_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296331_3IUEcN_corr.cfg -o fc_ldna088/run296331_3IUEcN_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296332_5Hlo3u_corr.cfg -o fc_ldna088/run296332_5Hlo3u_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296333_eBlI3L_corr.cfg -o fc_ldna088/run296333_eBlI3L_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296334_L6GyQ1_corr.cfg -o fc_ldna088/run296334_L6GyQ1_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296335_DCL24R_corr.cfg -o fc_ldna088/run296335_DCL24R_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296336_AHv0WH_corr.cfg -o fc_ldna088/run296336_AHv0WH_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296337_knl1u6_corr.cfg -o fc_ldna088/run296337_knl1u6_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296338_VQ5dYS_corr.cfg -o fc_ldna088/run296338_VQ5dYS_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296339_cZLLwO_corr.cfg -o fc_ldna088/run296339_cZLLwO_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296340_xli943_corr.cfg -o fc_ldna088/run296340_xli943_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296341_2t9MZv_corr.cfg -o fc_ldna088/run296341_2t9MZv_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296342_ij1vhK_corr.cfg -o fc_ldna088/run296342_ij1vhK_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296343_4IpqnB_corr.cfg -o fc_ldna088/run296343_4IpqnB_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296344_jCvPEv_corr.cfg -o fc_ldna088/run296344_jCvPEv_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296345_mH8b6d_corr.cfg -o fc_ldna088/run296345_mH8b6d_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296346_0qKzYQ_corr.cfg -o fc_ldna088/run296346_0qKzYQ_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296347_qcymKK_corr.cfg -o fc_ldna088/run296347_qcymKK_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296348_fIVjxZ_corr.cfg -o fc_ldna088/run296348_fIVjxZ_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296349_x44KLo_corr.cfg -o fc_ldna088/run296349_x44KLo_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296350_TBFQ5g_corr.cfg -o fc_ldna088/run296350_TBFQ5g_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296351_SUOEFT_corr.cfg -o fc_ldna088/run296351_SUOEFT_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296352_GYNwyy_corr.cfg -o fc_ldna088/run296352_GYNwyy_corr.hdf5 -v
+Epython train.py -i fc_ldna088/run296353_kpKuli_corr.cfg -o fc_ldna088/run296353_kpKuli_corr.hdf5 -v
