@@ -33,8 +33,8 @@ def train(data, sig_cutoff,num_bins):
     bins_center,n_center,bins_side,n_side = make_histograms(data,sig_cutoff,num_bins)
     
 #   get the x-axis for gaussian fit 
-    side_x=bins_side[n_side>0]
-    center_x=bins_center[n_center>0]
+    side_x=bins_side[:-1][n_side>0]
+    center_x=bins_center[:-1][n_center>0]
     
 #   gaussian fit to outliers. if fails, returns None
     try:
