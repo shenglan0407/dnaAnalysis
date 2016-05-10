@@ -1,5 +1,7 @@
 import numpy as np
 import utilities
+import sys
+sys.path.append('/data/ana/epd/lib/python2.7/site-packages')
 from scipy.optimize import curve_fit
 
 def gaussian(x,mean,sigma,amp):
