@@ -7,7 +7,7 @@ def gaussian(x,mean,sigma,amp):
     return amp*np.exp(-(x-mean)**2/2./sigma**2)
 
 def normal(x,mean,sigma):
-    return 1./(sigma*np.sqrt(2.*np.pi))*np.exp(-(x-mean)**2/2./sigma**2)
+    return 1./(np.abs(sigma)*np.sqrt(2.*np.pi))*np.exp(-(x-mean)**2/2./sigma**2)
 
 def pull_outliers(data,m):
     d = np.abs(data - np.median(data))
@@ -71,7 +71,7 @@ def predict(data,model):
         p_u += n_u/(n_c+n_u)
     
     p_c=p_c/data.shape[0]
-    p_u=p_c/data.shape[0]
+    p_u=p_u/data.shape[0]
     
     return p_c,p_u
 
