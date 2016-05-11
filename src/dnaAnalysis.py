@@ -60,26 +60,66 @@ def predict(data,model):
         utilities.printErrorMsg("Model and data shape mismatch")
         return 0., 0. 
     
-    p_c = 0.
-    p_u = 0.
+    p_c = []
+    p_u = []
     
     for i in range(data.shape[0]):
-        n_c = normal(data[i],model[i][0][0],model[i][0][1])
-        n_u = normal(data[i],model[i][1][0],model[i][1][1])
-        
-        p_c += n_c/(n_c+n_u)
-        p_u += n_u/(n_c+n_u)
+        if (model[i][0][1]==0):
+            n_c=0
+        else:
+            n_c = normal(data[i],model[i][0][0],model[i][0][1])
+            
+        if(model[i][1][1]==0):
+            n_u = 0
+        else:
+            n_u = normal(data[i],model[i][1][0],model[i][1][1])
+        if(n_c==0 and n_u==0):
+            p_c.append(0.)
+            p_u.append(0.)
+        else:
+            p_c.append(n_c/(n_c+n_u))
+            p_u.append(n_u/(n_c+n_u))
     
-    p_c=p_c/data.shape[0]
-    p_u=p_u/data.shape[0]
+    p_c=np.array(p_c)
+    p_u=np.array(p_u)
     
     return p_c,p_u
 
-def reduce():
-    return
     
-def transfrom():
-    return
+def transform(data,pr_c,pr_u):
+    av_pc=np.mean(pr_c,axis=1)
+    av_pu=np.mean(pr_u,axis=1)
+    
+    weights=np.array([av_pc[i]/av_pu[i] for i in range(av_pc.shape[0])])
+    weights=weights/np.sum(weights)
+    
+    weighted_average=np.zeros(data[0].shape)
+    for i in range(len(weights)):
+        weighted_average += data[i]*weights[i]
+    return weighted_average, weights
+
+def predict_transform(all_data, model,psi_skip=10):
+    try:
+        assert all_data.shape[1]-psi_skip == model.shape[0] 
+    except AssertionError:
+        utilities.printErrorMsg("Model and data shape mismatch")
+        return 0., 0. 
+    
+    pr_u=[]
+    pr_c=[]
+    for i in range(all_data.shape[0]):
+        prs=predict(all_data[i][psi_skip:],model)
+        pr_u.append(prs[1])
+        pr_c.append(prs[0])
+    
+    pr_c=np.array(pr_c)
+    pr_u=np.array(pr_u)
+    
+    weighted_average,weights = transform(all_data,pr_c,pr_u)
+    
+    return weighted_average,weights
+    
+
 
 
     
