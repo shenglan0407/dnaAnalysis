@@ -91,7 +91,7 @@ def transform(data,pr_c,pr_u):
     av_pu=np.mean(pr_u,axis=1)
     
     weights=np.array([av_pc[i]/av_pu[i] for i in range(av_pc.shape[0])])
-    weights=weights/np.sum(weights)
+#     weights=weights/np.sum(weights)
     
     weighted_average=np.zeros(data[0].shape)
     for i in range(len(weights)):
@@ -118,6 +118,10 @@ def predict_transform(all_data, model,psi_skip=10):
     weighted_average,weights = transform(all_data,pr_c,pr_u)
     
     return weighted_average,weights
+
+def cospsi(delta, q, wavelen):
+    theta = np.arcsin(wavelen * q / (4*np.pi))
+    return np.cos(delta)*np.cos(theta)**2 + np.sin(theta)**2
     
 
 

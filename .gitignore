@@ -3,3 +3,5 @@ obsolete/
 .ipynb_checkpoints/
 *.pyc
 data/
+.DS_Store
+._.DS_Store
